@@ -1,15 +1,11 @@
 <template>
-    <Head>
-        <title>Hello</title>
-        <meta name="description" content="Inertia App" />
-    </Head>
-    <h1>Home</h1>
+    <h1>Settings</h1>
     <Nav />
 </template>
 
 <script>
 import Nav from "../Shared/Nav";
-import { Head } from "@inertiajs/inertia-vue3";
+
 export default {
     props: {
         name: String,
@@ -17,7 +13,6 @@ export default {
     },
     components: {
         Nav,
-        Head,
     },
 };
 </script>
