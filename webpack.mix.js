@@ -15,4 +15,7 @@ mix.js("resources/js/app.js", "public/js")
     .extract()
     .vue(3)
     .postCss("resources/css/app.css", "public/css", [require("tailwindcss")])
-    .version();
+    .version()
+    .webpackConfig({
+        output: { chunkFilename: "js/app/[name].js?id=[chunkhash]" },
+    });
