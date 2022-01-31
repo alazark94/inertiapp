@@ -1,20 +1,5 @@
 <template>
-    <h1>Settings</h1>
-    <Nav />
+    <Head title="Settings" />
+
+    <h1 class="text-4xl font-bold">Settings</h1>
 </template>
-
-<script>
-import Nav from "../Shared/Nav";
-
-export default {
-    props: {
-        name: String,
-        frameworks: Array,
-    },
-    components: {
-        Nav,
-    },
-};
-</script>
-
-<style></style>

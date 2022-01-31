@@ -1,25 +1,6 @@
 <template>
-    <Head>
-        <title>Hello</title>
+    <Head title="Home">
         <meta name="description" content="Inertia App" />
     </Head>
-    <h1>Home</h1>
-    <Nav />
+    <h1 class="text-4xl font-bold">Home</h1>
 </template>
-
-<script>
-import Nav from "../Shared/Nav";
-import { Head } from "@inertiajs/inertia-vue3";
-export default {
-    props: {
-        name: String,
-        frameworks: Array,
-    },
-    components: {
-        Nav,
-        Head,
-    },
-};
-</script>
-
-<style></style>
