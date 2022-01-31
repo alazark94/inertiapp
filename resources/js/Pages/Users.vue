@@ -93,6 +93,7 @@ watch(search, (value) => {
         },
         {
             preserveState: true,
+            replace: true,
         }
     );
 });
